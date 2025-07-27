@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 
@@ -77,20 +76,6 @@ int main() {
             }
         }
     }
-
-    // Final flush at EOF
-    if (j != 0) {
-        buffer[j] = '\0';
-        if (isKeyword(buffer))
-            printf("%s\tkeyword\n", buffer);
-        else
-            printf("%s\tidentifier\n", buffer);
-    }
-    if (k != 0) {
-        buf[k] = '\0';
-        printf("%s\tconstant\n", buf);
-    }
-
     fclose(fp);
     return 0;
 }
