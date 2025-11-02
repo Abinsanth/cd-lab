@@ -1,0 +1,9 @@
+
+Enter infix: a=3+(c-d)*f
+Postfix: a3cd-f*+=
+Intermediate Code:
+Z := c - d
+Y := Z * f
+X := 3 + Y
+a := X
+
