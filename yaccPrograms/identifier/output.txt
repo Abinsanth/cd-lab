@@ -1,0 +1,6 @@
+Enter a name to test for identifier: variable1
+valid 
+
+________________________________________________
+Enter a name to test for identifier: %variable
+invalid
