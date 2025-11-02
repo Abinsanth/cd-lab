@@ -1,0 +1,23 @@
+
+Enter the no of prooductions: 4
+Enter the productions:
+E=TR
+R=+TR
+T R=$
+T=a
+
+Enter the elemets whose fisrt & follow is to be found:E
+First(E)={a}
+Follow(E)={$}
+Continue(0/1)?1
+
+Enter the elemets whose fisrt & follow is to be found:T
+First(T)={a}
+Follow(T)={+$}
+Continue(0/1)?1
+
+Enter the elemets whose fisrt & follow is to be found:R
+First(R)={+$}
+Follow(R)={$}
+
+Continue(0/1)?0
