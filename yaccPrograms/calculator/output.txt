@@ -1,0 +1,5 @@
+Enter any arithmetic expression with +, -, *, /, % and ():
+5+4
+
+Result = 9
+Entered arithmetic expression is Valid
