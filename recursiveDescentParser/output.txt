@@ -1,0 +1,23 @@
+Grammar without left recursion
+	 E -> T E'
+	 E' -> + T E' | ε
+	 T -> F T'
+	 T' -> * F T' | ε
+	 F -> (E) | i
+
+Enter an arithmetic expression: id+id*id
+
+--- Parsing Steps ---
+
+E -> T E' 
+T -> F T' 
+F -> id 
+T' -> ε
+E' -> + T E' 
+T -> F T' 
+F -> id 
+T' -> * F T'
+F -> id 
+T' -> ε
+E' -> ε
+Result: Accepted
