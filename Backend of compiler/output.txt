@@ -1,0 +1,16 @@
+
+Enter the set of intermediate code (terminated by exit):
+a=b+2
+c=d+e
+exit
+
+8086 Target Code 
+
+	MOV AX, b
+	ADD AX, 2
+	MOV a, AX
+
+	MOV BX, d
+	ADD BX, e
+	MOV c, BX
+
