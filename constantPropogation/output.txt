@@ -1,0 +1,10 @@
+
+Enter the maximum number of expressions: 3               
+
+Enter the input (op op1 op2 res):
++ 2 3 t1
+* 5 t1 t2
++ a t2 t3
+
+Optimized code is:
++ a 25 t3
